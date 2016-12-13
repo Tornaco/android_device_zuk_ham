@@ -92,9 +92,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fingerprintd
 	
-# Gello
+# Browser
 PRODUCT_PACKAGES += \
-    Gello
+    Browser
 
 # Graphics
 PRODUCT_PACKAGES += \
@@ -258,6 +258,9 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui
 
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/zuk/ham/ham-vendor.mk)
+
+# call the tornaco setup
+$(call inherit-product-if-exists, vendor/tornaco/tornaco-vendor.mk)
 
 ifneq ($(QCPATH),)
 $(call inherit-product-if-exists, $(QCPATH)/prebuilt_HY11/target/product/msm8974/prebuilt.mk)

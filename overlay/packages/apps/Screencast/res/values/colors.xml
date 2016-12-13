@@ -1,0 +1,10 @@
+<resources>
+    <color name="white">#fafafa</color>
+    <color name="accent">#F44336</color>
+    <color name="accent_dark">#9C7A34</color>
+
+    <color name="fab">@color/accent</color>
+    <color name="fab_icon">#ffffff</color>
+    <color name="floating_action_button_touch_tint">#CC9345</color>
+</resources>
+
