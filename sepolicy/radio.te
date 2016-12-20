@@ -1,0 +1,1 @@
+#[9794.145374] type=1400 audit(1482198032.659:468): avc: denied { search } for pid=17465 comm="m.android.phone" name="/" dev="mmcblk0p12" ino=2 scontext=u:r:radio:s0 tcontext=u:object_r:unlabeled:s0 t#class=dir permissive=0 
