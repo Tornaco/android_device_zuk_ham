@@ -6,4 +6,6 @@ allow mediaserver audiod:binder call;
 
 allow mediaserver system_file:file { execmod };
 
+allow mediaserver rootfs:lnk_file getattr;
+
 binder_call(mediaserver, audiod)

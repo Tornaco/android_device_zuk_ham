@@ -4,3 +4,6 @@
 allow qti_init_shell bluetooth_loader_exec:file read;
 allow qti_init_shell hci_attach_dev:chr_file { open ioctl };
 allow qti_init_shell diag_device:chr_file open;
+
+allow init debugfs:file write;
+allow sysinit rootfs:lnk_file getattr;
